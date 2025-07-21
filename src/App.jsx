@@ -8,6 +8,8 @@ function AppStart() {
       <div className='App'>
       <div className="black-nav">
         <h4>블로그임 {data}</h4>
+        <h4>블로그임 {data}</h4>
+        <h4>블로그임 {data}</h4>
       </div>
       </div>
     </>
