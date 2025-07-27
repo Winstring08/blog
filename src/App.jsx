@@ -12,13 +12,12 @@ function App() {
       + today.getMinutes() + "분 "
       + today.getSeconds() + "초 "
   }
-  
+
   let [inputText, setInputText] = useState('')
 
   let [title, setTitle] = useState(['1', '2', '3']);
 
   let [like, setLike] = useState(title.map(() => {
-    console.log("싫행여부확인")
     return 0
   }))
 
@@ -67,7 +66,6 @@ function App() {
 
   return (
     <div className="App">
-      {console.log("like = " + like)}
       <div className="black-nav">
         <div>개발 blog</div>
         <p></p>
